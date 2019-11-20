@@ -7,3 +7,7 @@ ports:
 tasks:
 - init: ./gradlew clean build
   command: java -jar build/libs/*.jar
+
+vscode:
+  extensions:
+    - mathiasfrohlich.Kotlin@1.7.0:9xQZtwTUg4bdXHCMyxM7vQ==

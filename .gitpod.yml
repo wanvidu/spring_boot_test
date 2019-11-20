@@ -5,5 +5,5 @@ ports:
   onOpen: open-browser
   
 tasks:
-- init: ./mvnw package -DskipTests
-  command: java -jar target/*.jar
+- init: ./gradlew clean build
+  command: java -jar build/libs/*.jar

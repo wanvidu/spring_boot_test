@@ -1,7 +1,7 @@
 package spring_boot_test;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+// import static org.junit.Assert.*;
 
 public class AppTest {
     @Test public void testAppHasAGreeting() {
